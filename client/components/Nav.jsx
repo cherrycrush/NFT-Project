@@ -4,10 +4,10 @@ function Nav () {
   return (
     <>
       <nav>
-        <ul>
-          <li>One</li>
-          <li>Two</li>
-          <li>Three</li>
+        <ul className='nav-list'>
+          <li className='nav-item'>One</li>
+          <li className='nav-item'>Two</li>
+          <li className='nav-item'>Three</li>
         </ul>
       </nav>
     </>
