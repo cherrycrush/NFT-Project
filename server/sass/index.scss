@@ -1,15 +1,52 @@
 // variables
+// need to decide on a colour scheme
+// put colour variables here
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap');
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.2rem;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   line-height: 2;
 }
 
-nav {
+// Nav Component
 
+@mixin navtheme {
+  background-color: #999;
+  padding: 8px 1rem;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+}
+
+nav {
+  @include navtheme;
+}
+
+li {
+  display: inline;
+}
+
+.nav-item {
+  margin: 0 auto;
+}
+
+// Header component
+
+.header {
+  background-color: lightblue;
+  padding: 2rem;
+}
+
+// Intro component
+
+.intro {
+  background-color: lightcoral;
+  padding: 2rem;
 }
