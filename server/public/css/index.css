@@ -36,4 +36,35 @@ li {
   padding: 2rem;
 }
 
+.projects {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgoldenrodyellow;
+  padding: 2rem;
+}
+
+.project-card {
+  border-radius: 25px;
+  background-color: lightpink;
+  text-align: center;
+  margin: 0 auto;
+  width: 200px;
+  height: 300px;
+}
+
+.faq {
+  background-color: lightgreen;
+  padding: 2rem;
+}
+
+.footer {
+  background-color: lightsteelblue;
+  padding: 2rem;
+}
+
+.mint-countdown {
+  background-color: #5fab5d;
+  padding: 1rem;
+}
+
 /*# sourceMappingURL=index.css.map */

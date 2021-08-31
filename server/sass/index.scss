@@ -13,7 +13,7 @@
   line-height: 2;
 }
 
-// Nav Component
+// Themes
 
 @mixin navtheme {
   background-color: #999;
@@ -24,6 +24,17 @@
   position: relative;
   overflow: hidden;
 }
+
+@mixin roundbox {
+  border-radius: 25px;
+  background-color: lightpink;
+  text-align: center;
+  margin: 0 auto;
+  width: 200px;
+  height: 300px;
+}
+
+// Nav Component
 
 nav {
   @include navtheme;
@@ -49,4 +60,38 @@ li {
 .intro {
   background-color: lightcoral;
   padding: 2rem;
+}
+
+// Projects component 
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgoldenrodyellow;
+  padding: 2rem;
+}
+
+.project-card {
+  @include roundbox;
+}
+
+// Faq component
+
+.faq {
+  background-color: lightgreen;
+  padding: 2rem;
+}
+
+// Footer component 
+
+.footer {
+  background-color: lightsteelblue;
+  padding: 2rem;
+}
+
+// Mint countdown component
+
+.mint-countdown {
+  background-color: #5fab5d;
+  padding: 1rem;
 }
