@@ -1,6 +1,13 @@
 // variables
 // need to decide on a colour scheme
 // put colour variables here
+$charcoal: #292929;
+$lighttan: #eed7a1;
+$tan: #cd8b62;
+$steel: #8a8583;
+$cream: #f7efd3;
+$royalblue: #475c6c;
+
 
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap');
 
@@ -16,7 +23,7 @@
 // Themes
 
 @mixin navtheme {
-  background-color: #999;
+  background-color: $lighttan;
   padding: 8px 1rem;
   box-sizing: border-box;
   font-size: 1.1rem;
@@ -26,12 +33,26 @@
 }
 
 @mixin roundbox {
-  border-radius: 25px;
-  background-color: lightpink;
+  border-radius: 16px;
+  background-color: $lighttan;
   text-align: center;
   margin: 0 auto;
   width: 200px;
   height: 300px;
+}
+
+@mixin container {
+  width: 80%;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.container {
+  @include container;
+}
+
+.expand,  p, h2 {
+  background-color: inherit;
 }
 
 // Nav Component
@@ -40,28 +61,40 @@ nav {
   @include navtheme;
 }
 
+ul {
+  background-color: inherit;
+}
+
 li {
   display: inline;
+  background-color: inherit;
 }
 
 .nav-item {
-  margin: 0 auto;
   padding: 1rem;
-  float: right;
+  color: inherit;
 }
 
 // Header component
 
 .header {
-  background-color: lightblue;
+  border-radius: 25px;
   padding: 2rem;
+  background-color: $royalblue;
 }
 
 // Intro component
 
 .intro {
-  background-color: lightcoral;
+  border-radius: 25px;
+  background-color: $royalblue;
   padding: 2rem;
+  text-align: center;
+}
+
+.intro-image {
+  max-height: auto;
+  width: 20%;
 }
 
 // Projects component 
@@ -69,25 +102,31 @@ li {
 .projects {
   display: flex;
   flex-direction: row;
-  background-color: lightgoldenrodyellow;
-  padding: 2rem;
+  margin: 0 auto;
 }
 
 .project-card {
   @include roundbox;
+  padding: 1rem;
 }
 
 // Faq component
 
 .faq {
-  background-color: lightgreen;
-  padding: 2rem;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: $tan;
+  max-width: 50%;
+  padding: 1rem;
+  margin: 1rem auto;
 }
 
 // Footer component 
 
 .footer {
-  background-color: lightsteelblue;
+  background-color: $lighttan;
   padding: 2rem;
 }
 
@@ -96,6 +135,6 @@ li {
 .mint-countdown {
   text-align: center;
   font-weight: 800;
-  background-color: #5fab5d;
+  background-color: $lighttan;
   padding: 1rem;
 }

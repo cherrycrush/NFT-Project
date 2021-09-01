@@ -8,8 +8,18 @@
   line-height: 2;
 }
 
+.container {
+  width: 80%;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.expand, p, h2 {
+  background-color: inherit;
+}
+
 nav {
-  background-color: #999;
+  background-color: #eed7a1;
   padding: 8px 1rem;
   box-sizing: border-box;
   font-size: 1.1rem;
@@ -18,56 +28,74 @@ nav {
   overflow: hidden;
 }
 
+ul {
+  background-color: inherit;
+}
+
 li {
   display: inline;
+  background-color: inherit;
 }
 
 .nav-item {
-  margin: 0 auto;
   padding: 1rem;
-  float: right;
+  color: inherit;
 }
 
 .header {
-  background-color: lightblue;
+  border-radius: 25px;
   padding: 2rem;
+  background-color: #475c6c;
 }
 
 .intro {
-  background-color: lightcoral;
+  border-radius: 25px;
+  background-color: #475c6c;
   padding: 2rem;
+  text-align: center;
+}
+
+.intro-image {
+  max-height: auto;
+  width: 20%;
 }
 
 .projects {
   display: flex;
   flex-direction: row;
-  background-color: lightgoldenrodyellow;
-  padding: 2rem;
+  margin: 0 auto;
 }
 
 .project-card {
-  border-radius: 25px;
-  background-color: lightpink;
+  border-radius: 16px;
+  background-color: #eed7a1;
   text-align: center;
   margin: 0 auto;
   width: 200px;
   height: 300px;
+  padding: 1rem;
 }
 
 .faq {
-  background-color: lightgreen;
-  padding: 2rem;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #cd8b62;
+  max-width: 50%;
+  padding: 1rem;
+  margin: 1rem auto;
 }
 
 .footer {
-  background-color: lightsteelblue;
+  background-color: #eed7a1;
   padding: 2rem;
 }
 
 .mint-countdown {
   text-align: center;
   font-weight: 800;
-  background-color: #5fab5d;
+  background-color: #eed7a1;
   padding: 1rem;
 }
 

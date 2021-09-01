@@ -13,8 +13,8 @@ const App = () => {
     <Router>
       <Route path='/'>
         <MintCountdown />
-        <Nav />
         <Header />
+        <Nav />
         <Intro />
         <Projects />
         <Faq />
