@@ -6,9 +6,15 @@ function Nav () {
     <>
       <nav>
         <ul>
-          <li className='nav-item'>One</li>
-          <li className='nav-item'>Two</li>
-          <li className='nav-item'>Three</li>
+          <li className='nav-item'>
+            <i className="fab fa-facebook-square fa-2x"></i>
+          </li>
+          <li className='nav-item'>
+            <i className="fab fa-discord fa-2x"></i>
+          </li>
+          <li className='nav-item'>
+            <i className="fab fa-instagram-square fa-2x"></i>
+          </li>
         </ul>
       </nav>
     </>

@@ -4,7 +4,7 @@ function MintCountdown () {
   return (
     <>
       <section className='mint-countdown'>
-        <p>This is the mint countdown</p>
+        Mint Day xx:xx:xx
       </section>
     </>
   )

@@ -46,6 +46,8 @@ li {
 
 .nav-item {
   margin: 0 auto;
+  padding: 1rem;
+  float: right;
 }
 
 // Header component
@@ -92,6 +94,8 @@ li {
 // Mint countdown component
 
 .mint-countdown {
+  text-align: center;
+  font-weight: 800;
   background-color: #5fab5d;
   padding: 1rem;
 }
