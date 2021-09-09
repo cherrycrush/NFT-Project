@@ -15,9 +15,9 @@ $royalblue: #475c6c;
   font-family: 'Karla', sans-serif;
   font-size: 1.2rem;
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   line-height: 2;
+  font-weight: 800;
 }
 
 // Themes
@@ -27,7 +27,6 @@ $royalblue: #475c6c;
   padding: 8px 1rem;
   box-sizing: border-box;
   font-size: 1.1rem;
-  font-weight: 600;
   position: relative;
   overflow: hidden;
 }
@@ -51,8 +50,13 @@ $royalblue: #475c6c;
   @include container;
 }
 
-.expand,  p, h2 {
+.expand,  p, h1 {
   background-color: inherit;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
 }
 
 // Nav Component
@@ -63,9 +67,12 @@ nav {
 
 ul {
   background-color: inherit;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 li {
+  margin: 0 auto;
   display: inline;
   background-color: inherit;
 }
@@ -78,9 +85,10 @@ li {
 // Header component
 
 .header {
-  border-radius: 25px;
-  padding: 2rem;
   background-color: $royalblue;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 // Intro component
@@ -90,6 +98,7 @@ li {
   background-color: $royalblue;
   padding: 2rem;
   text-align: center;
+  color: white;
 }
 
 .intro-image {
@@ -103,6 +112,7 @@ li {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
+  max-width: 60%;
 }
 
 .project-card {
@@ -113,6 +123,7 @@ li {
 // Faq component
 
 .faq {
+  font-weight: 800;
   border-radius: 25px;
   display: flex;
   flex-direction: row;
@@ -128,6 +139,7 @@ li {
 .footer {
   background-color: $lighttan;
   padding: 2rem;
+  text-align: center;
 }
 
 // Mint countdown component
@@ -137,4 +149,13 @@ li {
   font-weight: 800;
   background-color: $lighttan;
   padding: 1rem;
+}
+
+// Media queries
+
+@media screen and (max-width: 600px) {
+  @mixin roundbox {
+    width: 100px;
+    height: 200px;
+  }
 }

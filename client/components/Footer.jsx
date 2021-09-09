@@ -4,7 +4,8 @@ function Footer () {
   return (
     <>
       <section className='footer'>
-        <p>This is the footer</p>
+        <p>(c) Dead Bunny Studio</p>
+        <p>Terms and Conditions</p>
       </section>
     </>
   )

@@ -3,6 +3,7 @@ import React from 'react'
 function Faq () {
   return (
     <div className='container'>
+      <h1>FAQ</h1>
       <section className='faq'>
         <p>What are these NFTs?</p>
         <div className='expand'><i className="fas fa-arrow-circle-down fa-2x"></i></div>

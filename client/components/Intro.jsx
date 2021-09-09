@@ -4,7 +4,7 @@ function Intro () {
   return (
     <div className='container'>
       <section className='intro'>
-        <h2>WELCOME!</h2>
+        <h1>WELCOME!</h1>
         <p>
            Dead Bunny Studio is a storefront aimed towards publishing creative & unparalleled gaming (NFTS).
           <br></br>

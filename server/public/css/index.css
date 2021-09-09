@@ -3,9 +3,9 @@
   font-family: "Karla", sans-serif;
   font-size: 1.2rem;
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   line-height: 2;
+  font-weight: 800;
 }
 
 .container {
@@ -14,8 +14,13 @@
   margin: 0 auto;
 }
 
-.expand, p, h2 {
+.expand, p, h1 {
   background-color: inherit;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
 }
 
 nav {
@@ -23,16 +28,18 @@ nav {
   padding: 8px 1rem;
   box-sizing: border-box;
   font-size: 1.1rem;
-  font-weight: 600;
   position: relative;
   overflow: hidden;
 }
 
 ul {
   background-color: inherit;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 li {
+  margin: 0 auto;
   display: inline;
   background-color: inherit;
 }
@@ -43,9 +50,10 @@ li {
 }
 
 .header {
-  border-radius: 25px;
-  padding: 2rem;
   background-color: #475c6c;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .intro {
@@ -53,6 +61,7 @@ li {
   background-color: #475c6c;
   padding: 2rem;
   text-align: center;
+  color: white;
 }
 
 .intro-image {
@@ -64,6 +73,7 @@ li {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
+  max-width: 60%;
 }
 
 .project-card {
@@ -77,6 +87,7 @@ li {
 }
 
 .faq {
+  font-weight: 800;
   border-radius: 25px;
   display: flex;
   flex-direction: row;
@@ -90,6 +101,7 @@ li {
 .footer {
   background-color: #eed7a1;
   padding: 2rem;
+  text-align: center;
 }
 
 .mint-countdown {

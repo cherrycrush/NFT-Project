@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Projects () {
-  const projects = ['Gaming NFTs', 'Friends NFTs', 'Custom NFTs', 'Pixel NFTs']
+  const projects = ['Gaming NFTs', 'Friends NFTs', 'Custom NFTs', 'Pixel NFTs', 'NFT Project']
 
   return (
     <>
