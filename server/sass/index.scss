@@ -1,77 +1,7 @@
 // File: index.scss
 
-@import 'layout';
-@import 'components';
-@import 'base';
+@import 'layout', 'components', 'base';
 
-// variables
-// need to decide on a colour scheme
-// put colour variables here
-$charcoal: #292929;
-$lighttan: #eed7a1;
-$tan: #cd8b62;
-$steel: #8a8583;
-$cream: #f7efd3;
-$royalblue: #475c6c;
-
-// Media queries
-
-@mixin phone {
-  @media (max-width: 599px) { @content; }
-}
-
-@mixin tablet-portrait {
-  @media (min-width: 600px) { @content; }
-}
-
-@mixin tablet-landscape {
-  @media (min-width: 900px) { @content; }
-}
-
-@mixin desktop {
-  @media (min-width: 1200px) { @content; }
-}
-
-@mixin desktop-big {
-  @media (min-width: 1920) { @content; }
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap');
-
-* {
-  font-family: 'Karla', sans-serif;
-  font-size: 1.2rem;
-  margin: 0;
-  box-sizing: border-box;
-  line-height: 2;
-  font-weight: 800;
-}
-
-// Themes
-
-@mixin navtheme {
-  background-color: $lighttan;
-  padding: 8px 1rem;
-  box-sizing: border-box;
-  font-size: 1.1rem;
-  position: relative;
-  overflow: hidden;
-}
-
-@mixin roundbox {
-  border-radius: 16px;
-  background-color: $lighttan;
-  text-align: center;
-  margin: 0 auto;
-  width: 200px;
-  height: 300px;
-}
-
-@mixin container {
-  width: 80%;
-  padding: 2rem;
-  margin: 0 auto;
-}
 
 .container {
   @include container;
