@@ -1,0 +1,96 @@
+// File: _components.scss
+
+// Nav Component
+
+nav {
+  @include navtheme;
+}
+
+ul {
+  background-color: inherit;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+li {
+  margin: 0 auto;
+  display: inline;
+  background-color: inherit;
+}
+
+.nav-item {
+  padding: 1rem;
+  color: inherit;
+}
+
+// Header component
+
+.header {
+  background-color: $royalblue;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+// Intro component
+
+.intro {
+  border-radius: 25px;
+  background-color: $royalblue;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.intro-image {
+  max-height: auto;
+  width: 20%;
+}
+
+// Projects component 
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 60%;
+}
+
+.project-card {
+  @include roundbox;
+  padding: 1rem;
+  @include phone {
+    padding: 2rem;
+  }
+}
+
+// Faq component
+
+.faq {
+  font-weight: 800;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: $tan;
+  max-width: 50%;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+
+// Footer component 
+
+.footer {
+  background-color: $lighttan;
+  padding: 2rem;
+  text-align: center;
+}
+
+// Mint countdown component
+
+.mint-countdown {
+  text-align: center;
+  font-weight: 800;
+  background-color: $lighttan;
+  padding: 1rem;
+}

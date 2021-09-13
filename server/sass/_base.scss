@@ -1,6 +1,6 @@
-// variables
-// need to decide on a colour scheme
-// put colour variables here
+// File: _base.scss
+// variables mixins
+
 $charcoal: #292929;
 $lighttan: #eed7a1;
 $tan: #cd8b62;
@@ -41,7 +41,7 @@ $royalblue: #475c6c;
   font-weight: 800;
 }
 
-// Themes
+// Mixins
 
 @mixin navtheme {
   background-color: $lighttan;

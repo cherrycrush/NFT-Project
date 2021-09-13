@@ -1,119 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap");
-* {
-  font-family: "Karla", sans-serif;
-  font-size: 1.2rem;
-  margin: 0;
-  box-sizing: border-box;
-  line-height: 2;
-  font-weight: 800;
-}
+/* Error: This file is already being loaded.
+ *   ,
+ * 4 |   @import 'index';
+ *   |           ^^^^^^^
+ *   '
+ *   server/sass/_layout.scss 4:11  @import
+ *   server/sass/index.scss 3:9     root stylesheet */
 
-.container {
-  width: 80%;
-  padding: 2rem;
-  margin: 0 auto;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: This file is already being loaded.\a   \2577 \a 4 \2502    @import 'index';\a   \2502            ^^^^^^^\a   \2575 \a   server/sass/_layout.scss 4:11  @import\a   server/sass/index.scss 3:9     root stylesheet";
 }
-
-.expand, p, h1 {
-  background-color: inherit;
-}
-
-h1 {
-  font-size: 3rem;
-  text-align: center;
-}
-
-nav {
-  background-color: #eed7a1;
-  padding: 8px 1rem;
-  box-sizing: border-box;
-  font-size: 1.1rem;
-  position: relative;
-  overflow: hidden;
-}
-
-ul {
-  background-color: inherit;
-  margin: 0 auto;
-  justify-content: center;
-}
-
-li {
-  margin: 0 auto;
-  display: inline;
-  background-color: inherit;
-}
-
-.nav-item {
-  padding: 1rem;
-  color: inherit;
-}
-
-.header {
-  background-color: #475c6c;
-  width: 100%;
-  margin: 0 auto;
-  justify-content: center;
-}
-
-.intro {
-  border-radius: 25px;
-  background-color: #475c6c;
-  padding: 2rem;
-  text-align: center;
-  color: white;
-}
-
-.intro-image {
-  max-height: auto;
-  width: 20%;
-}
-
-.projects {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-  max-width: 60%;
-}
-
-.project-card {
-  border-radius: 16px;
-  background-color: #eed7a1;
-  text-align: center;
-  margin: 0 auto;
-  width: 200px;
-  height: 300px;
-  padding: 1rem;
-}
-@media (max-width: 599px) {
-  .project-card {
-    padding: 2rem;
-  }
-}
-
-.faq {
-  font-weight: 800;
-  border-radius: 25px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: #cd8b62;
-  max-width: 50%;
-  padding: 1rem;
-  margin: 1rem auto;
-}
-
-.footer {
-  background-color: #eed7a1;
-  padding: 2rem;
-  text-align: center;
-}
-
-.mint-countdown {
-  text-align: center;
-  font-weight: 800;
-  background-color: #eed7a1;
-  padding: 1rem;
-}
-
-/*# sourceMappingURL=index.css.map */
