@@ -1,10 +1,5 @@
 // File: _layout.scss
 
-.container {
-  @import 'index';
-  @include container;
-}
-
 .expand,  p, h1 {
   background-color: inherit;
 }

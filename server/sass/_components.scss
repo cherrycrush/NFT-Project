@@ -1,9 +1,10 @@
 // File: _components.scss
+@use 'base';
 
 // Nav Component
 
 nav {
-  @include navtheme;
+  @include base.navtheme;
 }
 
 ul {
@@ -26,7 +27,7 @@ li {
 // Header component
 
 .header {
-  background-color: $royalblue;
+  background-color: base.$royalblue;
   width: 100%;
   margin: 0 auto;
   justify-content: center;
@@ -36,7 +37,7 @@ li {
 
 .intro {
   border-radius: 25px;
-  background-color: $royalblue;
+  background-color: base.$royalblue;
   padding: 2rem;
   text-align: center;
   color: white;
@@ -57,9 +58,9 @@ li {
 }
 
 .project-card {
-  @include roundbox;
+  @include base.roundbox;
   padding: 1rem;
-  @include phone {
+  @include base.phone {
     padding: 2rem;
   }
 }
@@ -72,7 +73,7 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: $tan;
+  background-color: base.$tan;
   max-width: 50%;
   padding: 1rem;
   margin: 1rem auto;
@@ -81,7 +82,7 @@ li {
 // Footer component 
 
 .footer {
-  background-color: $lighttan;
+  background-color: base.$lighttan;
   padding: 2rem;
   text-align: center;
 }
@@ -91,6 +92,6 @@ li {
 .mint-countdown {
   text-align: center;
   font-weight: 800;
-  background-color: $lighttan;
+  background-color: base.$lighttan;
   padding: 1rem;
 }
