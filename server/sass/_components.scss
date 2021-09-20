@@ -27,7 +27,7 @@ li {
 // Header component
 
 .header {
-  background-color: base.$royalblue;
+  background-color: base.$bgcolor;
   width: 100%;
   margin: 0 auto;
   justify-content: center;
@@ -37,8 +37,10 @@ li {
 
 .intro {
   border-radius: 25px;
-  background-color: base.$royalblue;
+  background-color: base.$bgcolor;
   padding: 2rem;
+  max-width: 75%;
+  margin: 0 auto;
   text-align: center;
   color: white;
 }
@@ -73,7 +75,7 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: base.$tan;
+  background-color: base.$bgcolorlite;
   max-width: 50%;
   padding: 1rem;
   margin: 1rem auto;
@@ -82,7 +84,7 @@ li {
 // Footer component 
 
 .footer {
-  background-color: base.$lighttan;
+  background-color: base.$bgcolorlite;
   padding: 2rem;
   text-align: center;
 }
@@ -92,6 +94,6 @@ li {
 .mint-countdown {
   text-align: center;
   font-weight: 800;
-  background-color: base.$lighttan;
+  background-color: base.$bgcolorlite;
   padding: 1rem;
 }

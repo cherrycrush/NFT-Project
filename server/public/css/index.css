@@ -18,7 +18,7 @@ h1 {
 }
 
 nav {
-  background-color: #eed7a1;
+  background-color: #dedede;
   padding: 8px 1rem;
   box-sizing: border-box;
   font-size: 1.1rem;
@@ -44,7 +44,7 @@ li {
 }
 
 .header {
-  background-color: #475c6c;
+  background-color: #484a4c;
   width: 100%;
   margin: 0 auto;
   justify-content: center;
@@ -52,8 +52,10 @@ li {
 
 .intro {
   border-radius: 25px;
-  background-color: #475c6c;
+  background-color: #484a4c;
   padding: 2rem;
+  max-width: 75%;
+  margin: 0 auto;
   text-align: center;
   color: white;
 }
@@ -72,7 +74,7 @@ li {
 
 .project-card {
   border-radius: 16px;
-  background-color: #eed7a1;
+  background-color: #dedede;
   text-align: center;
   margin: 0 auto;
   width: 200px;
@@ -91,14 +93,14 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #cd8b62;
+  background-color: #dedede;
   max-width: 50%;
   padding: 1rem;
   margin: 1rem auto;
 }
 
 .footer {
-  background-color: #eed7a1;
+  background-color: #dedede;
   padding: 2rem;
   text-align: center;
 }
@@ -106,7 +108,7 @@ li {
 .mint-countdown {
   text-align: center;
   font-weight: 800;
-  background-color: #eed7a1;
+  background-color: #dedede;
   padding: 1rem;
 }
 

@@ -1,12 +1,9 @@
 // File: _base.scss
 // variables mixins
 
-$charcoal: #292929;
-$lighttan: #eed7a1;
-$tan: #cd8b62;
-$steel: #8a8583;
-$cream: #f7efd3;
-$royalblue: #475c6c;
+$bgcolor: #484a4c;
+$bgcolorlite: #dedede;
+$accent: #e05e00;
 
 // Media queries
 
@@ -30,7 +27,6 @@ $royalblue: #475c6c;
   @media (min-width: 1920) { @content; }
 }
 
-
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap');
 
 * {
@@ -45,7 +41,7 @@ $royalblue: #475c6c;
 // Mixins
 
 @mixin navtheme {
-  background-color: $lighttan;
+  background-color: $bgcolorlite;
   padding: 8px 1rem;
   box-sizing: border-box;
   font-size: 1.1rem;
@@ -55,7 +51,7 @@ $royalblue: #475c6c;
 
 @mixin roundbox {
   border-radius: 16px;
-  background-color: $lighttan;
+  background-color: $bgcolorlite;
   text-align: center;
   margin: 0 auto;
   width: 200px;
