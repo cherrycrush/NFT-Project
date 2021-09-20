@@ -1,11 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap");
-.expand, p, h1 {
+p, h1 {
   background-color: inherit;
 }
 
 h1 {
   font-size: 3rem;
   text-align: center;
+}
+
+.collapse-button {
+  display: block;
+  width: 5%;
+}
+
+.collapse-content.collapsed {
+  display: none;
+}
+
+.collapsed-content.expanded {
+  display: block;
 }
 
 * {
