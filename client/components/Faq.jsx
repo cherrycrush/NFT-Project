@@ -19,10 +19,6 @@ function Faq () {
         <p>What are these NFTs?</p>
         <div className='expand'><i className="fas fa-arrow-circle-down fa-2x"></i></div>
       </section>
-      <Collapse>
-        <h1>This collapses</h1>
-        <p>Hello world</p>
-      </Collapse>
     </div>
   )
 }

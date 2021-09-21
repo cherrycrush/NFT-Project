@@ -10,15 +10,19 @@ h1 {
 
 .collapse-button {
   display: block;
-  width: 5%;
+  border: none;
 }
 
 .collapse-content.collapsed {
   display: none;
+  border: none;
 }
 
 .collapsed-content.expanded {
   display: block;
+  border: none;
+  display: flex;
+  flex: 1;
 }
 
 * {
