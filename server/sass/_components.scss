@@ -73,7 +73,7 @@ li {
   font-weight: 800;
   border-radius: 25px;
   display: flex;
-  flex-direction: row;
+  flex: wrap;
   justify-content: space-between;
   background-color: base.$bgcolorlite;
   max-width: 50%;

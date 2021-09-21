@@ -23,6 +23,7 @@ h1 {
   border: none;
   display: flex;
   flex: 1;
+  align-self: flex-end;
 }
 
 * {
@@ -108,7 +109,7 @@ li {
   font-weight: 800;
   border-radius: 25px;
   display: flex;
-  flex-direction: row;
+  flex: wrap;
   justify-content: space-between;
   background-color: #dedede;
   max-width: 50%;
