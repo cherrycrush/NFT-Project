@@ -1,5 +1,6 @@
 // File: _components.scss
 @use 'base';
+@use 'layout';
 
 // Nav Component
 
@@ -62,7 +63,7 @@ li {
 .project-card {
   @include base.roundbox;
   padding: 1rem;
-  @include base.phone {
+  @include layout.phone {
     padding: 2rem;
   }
 }

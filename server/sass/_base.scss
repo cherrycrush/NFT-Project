@@ -5,28 +5,6 @@ $bgcolor: #484a4c;
 $bgcolorlite: #dedede;
 $accent: #df9560;
 
-// Media queries
-
-@mixin phone {
-  @media (max-width: 599px) { @content; }
-}
-
-@mixin tablet-portrait {
-  @media (min-width: 600px) { @content; }
-}
-
-@mixin tablet-landscape {
-  @media (min-width: 900px) { @content; }
-}
-
-@mixin desktop {
-  @media (min-width: 1200px) { @content; }
-}
-
-@mixin desktop-big {
-  @media (min-width: 1920) { @content; }
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap');
 
 * {
