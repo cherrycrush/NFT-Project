@@ -63,3 +63,7 @@ $accent: #e05e00;
   padding: 2rem;
   margin: 0 auto;
 }
+
+.container {
+  @include container;
+}
