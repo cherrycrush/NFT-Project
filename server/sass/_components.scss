@@ -70,26 +70,18 @@ li {
 // Faq component
 
 .faq {
-  font-weight: 800;
-  border-radius: 25px;
-  display: flex;
-  flex: wrap;
-  justify-content: space-between;
-  background-color: base.$bgcolorlite;
-  max-width: 50%;
-  padding: 1rem;
-  margin: 1rem auto;
+  @include base.question;
     &:hover {
       background-color: base.$accent;
       transition: 0.2s ease-in-out;
+      cursor: pointer;
   }
 }
 
 
 .answer {
-  max-width: 80%;
-  padding: 1rem;
-  margin: 1rem auto;
+  @include base.question;
+    max-width: 80%;
 }
 
 // Footer component 

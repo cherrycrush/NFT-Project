@@ -64,6 +64,18 @@ $accent: #df9560;
   margin: 0 auto;
 }
 
+@mixin question {
+  font-weight: 800;
+  border-radius: 25px;
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+  background-color: $bgcolorlite;
+  max-width: 50%;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+
 .container {
   @include container;
 }
