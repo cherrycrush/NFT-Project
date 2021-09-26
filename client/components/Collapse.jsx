@@ -5,13 +5,13 @@ const Collapse = ({ collapsed, children }) => {
 
   return (
     <>
-      <button
-        className='faq collapse-button'
+      <section
+        className='faq collapse-section'
         onClick={() => setIsCollapsed(!isCollapsed)}
       >
         <p>What are these NFTs?</p>
         <div><i className="fas fa-arrow-circle-down fa-2x"></i></div>
-      </button>
+      </section>
       <div
         className={`collapse-content ${isCollapsed ? 'expanded' : 'collapsed'}`}
         aria-expanded={isCollapsed}

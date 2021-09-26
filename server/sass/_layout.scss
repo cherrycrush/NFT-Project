@@ -22,7 +22,6 @@ h1 {
 .collapsed-content.expanded {
   display: block;
   border: none;
-  display: flex;
-  flex: 1;
-  align-self: flex-end;
+  max-width: 50%;
+  margin: 1rem auto;
 }

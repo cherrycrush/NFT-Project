@@ -6,7 +6,7 @@ function Faq () {
     <div className='container'>
       <h1>FAQ</h1>
       <Collapse>
-        <p>answer</p>
+        <p className='answer'>Lorem ipsum</p>
       </Collapse>
       <section className='faq'>
         <p>What are these NFTs?</p>

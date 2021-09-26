@@ -21,9 +21,8 @@ h1 {
 .collapsed-content.expanded {
   display: block;
   border: none;
-  display: flex;
-  flex: 1;
-  align-self: flex-end;
+  max-width: 50%;
+  margin: 1rem auto;
 }
 
 * {
@@ -119,6 +118,16 @@ li {
   justify-content: space-between;
   background-color: #dedede;
   max-width: 50%;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+.faq:hover {
+  background-color: #df9560;
+  transition: 0.2s ease-in-out;
+}
+
+.answer {
+  max-width: 80%;
   padding: 1rem;
   margin: 1rem auto;
 }
