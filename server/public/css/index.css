@@ -104,11 +104,6 @@ li {
   height: 300px;
   padding: 1rem;
 }
-@media (max-width: 599px) {
-  .project-card {
-    padding: 2rem;
-  }
-}
 
 .faq {
   font-weight: 800;

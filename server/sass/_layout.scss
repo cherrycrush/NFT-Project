@@ -2,27 +2,6 @@
 
 // Media queries
 
-@mixin phone {
-  @media (max-width: 599px) { @content; }
-}
-
-@mixin tablet-portrait {
-  @media (min-width: 600px) { @content; }
-}
-
-@mixin tablet-landscape {
-  @media (min-width: 900px) { @content; }
-}
-
-@mixin desktop {
-  @media (min-width: 1200px) { @content; }
-}
-
-@mixin desktop-big {
-  @media (min-width: 1920) { @content; }
-}
-
-
 p, h1 {
   background-color: inherit;
 }
